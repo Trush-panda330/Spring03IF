@@ -13,7 +13,7 @@ import uetak.entity.Shain;
 public class ShainServiceImpl implements ShainService {
 	
 	@Autowired
-	@Qualifier("ShainRepositoryImpl1")
+	@Qualifier("ShainRepositoryImpl")
 	ShainRepository shainRepository;
 	
 	
