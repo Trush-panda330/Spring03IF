@@ -3,6 +3,7 @@ package uetak.Service;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import uetak.Repository.ShainRepository;
@@ -12,6 +13,7 @@ import uetak.entity.Shain;
 public class ShainServiceImpl implements ShainService {
 	
 	@Autowired
+	@Qualifier("ShainRepositoryImpl1")
 	ShainRepository shainRepository;
 	
 	

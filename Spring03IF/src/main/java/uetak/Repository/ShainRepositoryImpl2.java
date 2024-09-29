@@ -2,11 +2,13 @@ package uetak.Repository;
 
 import java.util.ArrayList;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
 import uetak.entity.Shain;
 
 @Repository
+@Qualifier("ShainRepositoryImpl2")
 public class ShainRepositoryImpl2 implements ShainRepository{
 
 	@Override
