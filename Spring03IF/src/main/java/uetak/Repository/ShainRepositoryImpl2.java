@@ -18,6 +18,7 @@ public class ShainRepositoryImpl2 implements ShainRepository{
 		shain1.setId(001);
 		shain1.setName("匿名太郎");
 		shain1.setGender("男");
+		
 		shain1.setNen(0000);
 		shain1.setAddress("未確定");
 		shainList.add(shain1);
